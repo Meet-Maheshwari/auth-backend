@@ -9,7 +9,7 @@ import userRouter from "./routes/userRoutes.js";
 const app = express();
 const port = process.env.PORT || 4000;
 
-const allowOrigins = ["https://auth-backend-ptwi.onrender.com"];
+const allowOrigins = ["https://authenticationpro.onrender.com"];
 
 app.use(express.json());
 app.use(cookieParser());
